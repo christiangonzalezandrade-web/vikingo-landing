@@ -42,9 +42,9 @@ services:
     instance_size_slug: apps-s-1vcpu-1gb
 
 domains:
-  - domain: vikingo-system.com
+  - domain: vikingo-systems.com
     type: PRIMARY
-    zone: vikingo-system.com
-  - domain: www.vikingo-system.com
+    zone: vikingo-systems.com
+  - domain: www.vikingo-systems.com
     type: ALIAS
-    zone: vikingo-system.com
+    zone: vikingo-systems.com
