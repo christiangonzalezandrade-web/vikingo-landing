@@ -31,7 +31,7 @@ services:
   - name: web
     environment_slug: node-js
     github:
-      repo: OWNER/vikingo-landing
+      repo: christiangonzalezandrade-web/vikingo-landing
       branch: main
       deploy_on_push: true
     source_dir: /
@@ -40,3 +40,11 @@ services:
     http_port: 8080
     instance_count: 1
     instance_size_slug: apps-s-1vcpu-1gb
+
+domains:
+  - domain: vikingo-system.com
+    type: PRIMARY
+    zone: vikingo-system.com
+  - domain: www.vikingo-system.com
+    type: ALIAS
+    zone: vikingo-system.com
