@@ -1,0 +1,608 @@
+{
+  "meta": {
+    "title": "Vikingo — Sistema operativo per il commercio autonomo",
+    "description": "Infrastruttura globale fintech + IoT per pagamenti cashless intelligenti, telemetria in tempo reale, pricing con IA e retail autonomo su scala internazionale."
+  },
+  "nav": {
+    "features": "Funzionalità",
+    "industries": "Settori",
+    "platform": "Piattaforma",
+    "pricing": "Prezzi",
+    "contact": "Contatto",
+    "requestDemo": "Richiedi demo",
+    "contactAdvisor": "Contatta un consulente",
+    "careers": "Cerchiamo i migliori",
+    "brandSuffix": "Soluzioni"
+  },
+  "countryGate": {
+    "title": "Benvenuto in Vikingo",
+    "subtitle": "Seleziona il tuo paese e la lingua per personalizzare la tua esperienza.",
+    "country": "Paese",
+    "language": "Lingua",
+    "continue": "Entra in Vikingo",
+    "change": "Cambia regione"
+  },
+  "hero": {
+    "badge": "Infrastruttura globale per il commercio autonomo",
+    "title": "Trasformando il commercio autonomo in tutto il mondo",
+    "subtitle": "Aumenta le vendite e ottimizza le operazioni con pagamenti cashless intelligenti, telemetria in tempo reale, pricing con IA e uno stack IoT proprietario per la scala globale.",
+    "ctaDemo": "Richiedi demo",
+    "ctaAdvisor": "Contatta un consulente",
+    "stats": {
+      "machines": "Fino a 10.000 macchine per cliente",
+      "transactions": "Transazioni senza limiti",
+      "uptime": "Uptime della piattaforma",
+      "countries": "Paesi attivi"
+    },
+    "ecosystemAlt": "Ecosistema Vikingo: macchine intelligenti (vending, caffè, lavanderia, parking EV, chioschi, massaggio, hub IA) connesse a un data center sicuro e al pannello di gestione globale."
+  },
+  "trust": {
+    "paymentsLabel": "Metodi di pagamento accettati",
+    "metrics": {
+      "uptime": "99,9% uptime",
+      "coverage": "Copertura internazionale",
+      "multinational": "Operazioni multinazionali"
+    }
+  },
+  "certifications": {
+    "badge": "Sicurezza e conformità",
+    "title": "Infrastruttura di pagamento certificata",
+    "subtitle": "Vikingo soddisfa i più alti standard internazionali per pagamenti autonomi sicuri e conformi.",
+    "items": [
+      "PCI PTS V4.0, SRED",
+      "EMV Livello 1 e Livello 2",
+      "Mastercard PayPass",
+      "Visa payWave",
+      "American Express Expresspay",
+      "Mastercard TQM e TIP",
+      "Certificato Visa ADVT",
+      "Certificato Visa Ready"
+    ]
+  },
+  "global": {
+    "badge": "Operazioni globali",
+    "title": "Opera in ogni mercato dove SumUp è disponibile",
+    "subtitle": "Vikingo si implementa con SumUp come processore nazionale in ogni paese — multi-valuta, carte internazionali e gestione multinazionale da un'unica piattaforma.",
+    "features": {
+      "sumup": "Elaborazione SumUp per paese",
+      "multicurrency": "Supporto multi-valuta",
+      "international": "Pagamenti internazionali con carta",
+      "cloud": "Infrastruttura cloud globale",
+      "onboarding": "Onboarding globale rapido",
+      "expansion": "Implementazione multinazionale"
+    },
+    "currencies": "Valute supportate",
+    "live": "Rete in tempo reale",
+    "mapTitle": "Copertura globale SumUp",
+    "mapLegend": "Paesi in blu — mercati con elaborazione SumUp",
+    "mapLoading": "Caricamento mappa…",
+    "regions": {
+      "europe": "Europa",
+      "americas": "Americhe",
+      "oceania": "Oceania"
+    },
+    "anyCountry": "37 paesi in Europa, Americhe e Oceania",
+    "networkActive": "Rete globale attiva",
+    "networkDesc": "Elaborazione SumUp nazionale · regolamento multi-valuta · pagamenti internazionali con carta"
+  },
+  "solutions": {
+    "badge": "Piattaforma",
+    "title": "Lo stack completo per il commercio autonomo",
+    "subtitle": "Pagamenti, IoT, telemetria, pricing con IA e operazioni — unificati nell'ecosistema proprietario Vikingo.",
+    "items": {
+      "cashless": {
+        "title": "Pagamenti Cashless",
+        "desc": "Credito, debito, contactless e wallet su ogni macchina."
+      },
+      "telemetry": {
+        "title": "Telemetria Intelligente",
+        "desc": "Stato macchine, vendite e intelligenza ambientale in tempo reale."
+      },
+      "ai": {
+        "title": "Analitica IA",
+        "desc": "Intelligenza operativa per domanda, guasti e performance."
+      },
+      "pricingAi": {
+        "title": "Ottimizzazione Prezzi con IA",
+        "desc": "Strategie di prezzo dinamiche con machine learning."
+      },
+      "inventory": {
+        "title": "Controllo Inventario",
+        "desc": "Livelli di stock, avvisi di rifornimento e ottimizzazione SKU."
+      },
+      "corporate": {
+        "title": "Benefit Aziendali",
+        "desc": "Vantaggi per dipendenti e acquisti sovvenzionati."
+      },
+      "remote": {
+        "title": "Monitoraggio Remoto",
+        "desc": "Controlla e diagnostica le macchine da qualsiasi luogo."
+      },
+      "reports": {
+        "title": "Report in Tempo Reale",
+        "desc": "Dashboard live con ricavi, uptime e percorsi."
+      },
+      "international": {
+        "title": "Operazioni Internazionali",
+        "desc": "Gestisci flotte multinazionali da un unico centro."
+      },
+      "multicurrency": {
+        "title": "Multi-valuta",
+        "desc": "Accetta e riconcilia pagamenti in ogni mercato."
+      }
+    }
+  },
+  "industries": {
+    "badge": "Settori",
+    "title": "Costruito per ogni verticale del retail autonomo",
+    "items": [
+      "Distributori automatici",
+      "Macchine del caffè",
+      "Parcheggi",
+      "Chioschi self-service",
+      "Lavanderie intelligenti",
+      "Sale giochi",
+      "Retail autonomo",
+      "Micro market",
+      "Smart retail"
+    ]
+  },
+  "dashboard": {
+    "badge": "Piattaforma live",
+    "title": "Centro di comando per tutta la tua flotta",
+    "subtitle": "Dashboard SaaS enterprise — vendite, macchine, inventario, percorsi e operazioni globali in tempo reale.",
+    "tabs": {
+      "sales": "Vendite",
+      "machines": "Macchine",
+      "inventory": "Inventario",
+      "routes": "Percorsi",
+      "global": "Globale"
+    },
+    "alerts": {
+      "lowStock": "Avviso stock basso",
+      "machineOnline": "Macchina online",
+      "paymentSuccess": "Pagamento elaborato",
+      "pricingInsight": "Raccomandazione IA sui prezzi"
+    },
+    "metrics": {
+      "revenue": "Ricavi (24h)",
+      "uptime": "Uptime globale",
+      "countries": "Paesi attivi"
+    }
+  },
+  "benefits": {
+    "badge": "Risultati",
+    "title": "Eccellenza operativa su scala globale",
+    "items": {
+      "sales": {
+        "title": "Aumento vendite",
+        "desc": "Cashless e pricing con IA aumentano la conversione."
+      },
+      "cash": {
+        "title": "Meno gestione contanti",
+        "desc": "Elimina furti, errori di conteggio e costi di raccolta."
+      },
+      "efficiency": {
+        "title": "Efficienza operativa",
+        "desc": "Automatizza rifornimento, percorsi e manutenzione."
+      },
+      "visibility": {
+        "title": "Visibilità in tempo reale",
+        "desc": "Vedi ogni macchina, transazione e avviso all'istante."
+      },
+      "predictive": {
+        "title": "Manutenzione predittiva",
+        "desc": "Risolvi i problemi prima che impattino i ricavi."
+      },
+      "experience": {
+        "title": "Migliore esperienza cliente",
+        "desc": "Checkout più veloce e più opzioni di pagamento."
+      },
+      "scale": {
+        "title": "Scalabilità internazionale",
+        "desc": "Implementa nuovi mercati senza ricostruire lo stack."
+      },
+      "centralized": {
+        "title": "Centralizzazione globale",
+        "desc": "Una piattaforma per flotte in più paesi e valute."
+      }
+    }
+  },
+  "howItWorks": {
+    "badge": "Come funziona",
+    "title": "Online in tre passaggi",
+    "steps": {
+      "1": {
+        "title": "Collega il dispositivo Vikingo",
+        "desc": "Collega il nostro modulo IoT — configurazione in pochi minuti."
+      },
+      "2": {
+        "title": "Accetta pagamenti automaticamente",
+        "desc": "Carte e wallet elaborati via SumUp in ogni paese."
+      },
+      "3": {
+        "title": "Monitora la tua operazione online",
+        "desc": "Gestisci vendite, inventario, percorsi e prezzi da un dashboard."
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Prezzi",
+    "title": "Piani che scalano con la tua flotta",
+    "subtitle": "Confronta Launch, Scale e Global Enterprise — prezzo SaaS per macchina, commissione transazionale e funzionalità in un colpo d'occhio.",
+    "comparison": {
+      "featureColumn": "",
+      "featureColumnA11y": "Criterio",
+      "headers": {
+        "launch": "Launch",
+        "scale": "Scale",
+        "scaleBadge": "Più popolare",
+        "enterprise": "Global Enterprise"
+      },
+      "ctaRowLabel": "CTA",
+      "ctas": {
+        "launch": "Inizia ora",
+        "scale": "Scala la mia operazione",
+        "enterprise": "Parla con le vendite"
+      },
+      "rows": [
+        {
+          "id": "idealFor",
+          "label": "Ideale per",
+          "launch": "Operatori che avviano la prima flotta intelligente",
+          "scale": "Aziende in crescita con più sedi",
+          "enterprise": "Operatori globali e grandi corporation"
+        },
+        {
+          "id": "mainMessage",
+          "label": "Messaggio principale",
+          "launch": "Parti veloce e digitalizza le tue macchine",
+          "scale": "Scala con IA, automazione e controllo totale",
+          "enterprise": "Infrastruttura fintech per operazioni internazionali"
+        },
+        {
+          "id": "saasPrice",
+          "label": "Prezzo SaaS",
+          "launch": "0,25 UF / macchina",
+          "scale": "0,30 UF / macchina",
+          "enterprise": "Personalizzato"
+        },
+        {
+          "id": "transactionFee",
+          "label": "Commissione transazionale",
+          "launch": "29,5 + IVA / 2,95% + IVA",
+          "scale": "29,5 + IVA / 2,95% + IVA",
+          "enterprise": "29,5 + IVA / 2,95% + IVA"
+        },
+        {
+          "id": "machines",
+          "label": "Macchine incluse",
+          "launch": "Fino a 50",
+          "scale": "Fino a 500",
+          "enterprise": "1.500+"
+        },
+        {
+          "id": "coverage",
+          "label": "Copertura",
+          "launch": "1 paese",
+          "scale": "Fino a 3 paesi",
+          "enterprise": "Multi-paese globale"
+        },
+        {
+          "id": "telemetry",
+          "label": "Telemetria",
+          "launch": "Base",
+          "scale": "Avanzata",
+          "enterprise": "Avanzata + IA"
+        },
+        {
+          "id": "dashboardRealtime",
+          "label": "Dashboard in tempo reale",
+          "launch": "✅",
+          "scale": "✅",
+          "enterprise": "✅"
+        },
+        {
+          "id": "sumup",
+          "label": "Integrazione SumUp",
+          "launch": "✅",
+          "scale": "✅",
+          "enterprise": "✅"
+        },
+        {
+          "id": "routeOptimization",
+          "label": "Ottimizzazione percorsi",
+          "launch": "—",
+          "scale": "✅",
+          "enterprise": "✅"
+        },
+        {
+          "id": "aiPricing",
+          "label": "IA analitica e pricing",
+          "launch": "—",
+          "scale": "✅",
+          "enterprise": "✅"
+        },
+        {
+          "id": "smartAlerts",
+          "label": "Avvisi intelligenti",
+          "launch": "Base",
+          "scale": "Avanzati",
+          "enterprise": "Predittivi"
+        },
+        {
+          "id": "whatsapp",
+          "label": "WhatsApp automatizzato",
+          "launch": "—",
+          "scale": "✅",
+          "enterprise": "✅"
+        },
+        {
+          "id": "api",
+          "label": "API e integrazioni",
+          "launch": "—",
+          "scale": "Base",
+          "enterprise": "Avanzate"
+        },
+        {
+          "id": "support",
+          "label": "Supporto",
+          "launch": "Standard",
+          "scale": "Prioritario",
+          "enterprise": "Dedicato 24/7"
+        },
+        {
+          "id": "multiRegion",
+          "label": "Infrastruttura multi-regione",
+          "launch": "—",
+          "scale": "—",
+          "enterprise": "✅"
+        },
+        {
+          "id": "sla",
+          "label": "SLA garantito",
+          "launch": "—",
+          "scale": "—",
+          "enterprise": "99,9%"
+        },
+        {
+          "id": "multiCurrency",
+          "label": "Multi-valuta",
+          "launch": "—",
+          "scale": "—",
+          "enterprise": "✅"
+        },
+        {
+          "id": "quickSetup",
+          "label": "Setup rapido",
+          "launch": "✅",
+          "scale": "✅",
+          "enterprise": "✅"
+        },
+        {
+          "id": "multiLanguage",
+          "label": "Multi lingua",
+          "launch": "—",
+          "scale": "✅",
+          "enterprise": "✅"
+        },
+        {
+          "id": "sumupCountries",
+          "label": "Disponibile nei paesi SumUp",
+          "launch": "✅",
+          "scale": "✅",
+          "enterprise": "✅"
+        },
+        {
+          "id": "expectedImpact",
+          "label": "Impatto atteso",
+          "launch": "Digitalizza e monitora la tua operazione",
+          "scale": "Riduci i costi operativi e migliora l'efficienza",
+          "enterprise": "Scala a livello internazionale con massima disponibilità"
+        }
+      ]
+    }
+  },
+  "testimonials": {
+    "badge": "Clienti",
+    "title": "Fiducia di operatori e investitori in tutto il mondo",
+    "items": [
+      {
+        "quote": "Vikingo ha sostituito tre sistemi legacy. Il ricavo per macchina è aumentato del 34% in sei mesi.",
+        "author": "Carlos Gonzalez",
+        "role": "Amministratore delegato, SVC S.A.",
+        "country": "Cile"
+      },
+      {
+        "quote": "L'implementazione in 12 paesi è stata fluida. SumUp per paese e multi-valuta funziona perfettamente.",
+        "author": "Sofia L.",
+        "role": "VP Operazioni, AutonomX",
+        "country": "Spagna"
+      },
+      {
+        "quote": "Pricing con IA e telemetria in tempo reale hanno ridotto i costi dei percorsi del 28%. Vera infrastruttura enterprise.",
+        "author": "James K.",
+        "role": "Direttore, FleetScale",
+        "country": "Regno Unito"
+      }
+    ]
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "q": "Cos'è Vikingo?",
+        "a": "Vikingo è una piattaforma proprietaria fintech + IoT — il sistema operativo del commercio autonomo. Pagamenti, telemetria, inventario, pricing con IA, integrazioni ERP e operazioni globali in un'unica infrastruttura."
+      },
+      {
+        "q": "In quali paesi posso operare?",
+        "a": "Vikingo opera a livello internazionale dove SumUp elabora i pagamenti in ogni paese, con supporto multi-valuta e onboarding multinazionale rapido."
+      },
+      {
+        "q": "Quali certificazioni supporta Vikingo?",
+        "a": "La nostra infrastruttura è conforme a PCI PTS V4.0, SRED, EMV Livello 1 e 2, Mastercard PayPass, Visa payWave, American Express Expresspay e standard Visa Ready."
+      },
+      {
+        "q": "Come funziona l'integrazione con SumUp?",
+        "a": "SumUp agisce come processore nazionale in ogni mercato. Vikingo orchestra dispositivi, telemetria e operazioni mentre i pagamenti vengono regolati via SumUp localmente."
+      },
+      {
+        "q": "Posso integrare ERP e WhatsApp?",
+        "a": "Sì. I piani Enterprise includono integrazioni ERP, avvisi WhatsApp e accesso API personalizzato."
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Contatto",
+    "title": "Avvia la tua trasformazione nel commercio autonomo",
+    "subtitle": "Raccontaci della tua flotta. Il nostro team risponderà entro 24 ore.",
+    "name": "Nome completo",
+    "email": "Email aziendale",
+    "company": "Azienda",
+    "country": "Paese",
+    "phone": "Telefono (opzionale)",
+    "machines": "Numero di macchine",
+    "message": "Come possiamo aiutarti?",
+    "submit": "Invia richiesta",
+    "success": "Grazie! Ti contatteremo a breve.",
+    "whatsapp": "Chatta su WhatsApp",
+    "or": "oppure",
+    "whatsappHint": "Risposta immediata dal nostro team commerciale internazionale."
+  },
+  "cta": {
+    "title": "Trasforma oggi il tuo business autonomo",
+    "subtitle": "Unisciti agli operatori di tutto il mondo sull'infrastruttura globale Vikingo — pronta per crescita e investitori.",
+    "demo": "Richiedi demo",
+    "executive": "Parla con un executive"
+  },
+  "footer": {
+    "tagline": "Il sistema operativo globale del commercio autonomo.",
+    "product": "Prodotto",
+    "company": "Azienda",
+    "legal": "Legale",
+    "links": {
+      "solutions": "Soluzioni",
+      "pricing": "Prezzi",
+      "docs": "Documentazione",
+      "about": "Chi siamo",
+      "careers": "Carriere",
+      "contact": "Contatto",
+      "privacy": "Privacy",
+      "terms": "Termini",
+      "support": "Supporto"
+    },
+    "international": "Disponibile a livello internazionale",
+    "comingSoon": "Prossimamente",
+    "rights": "Tutti i diritti riservati.",
+    "social": "Seguici"
+  },
+  "whatsapp": {
+    "label": "Chatta con Vikingo su WhatsApp",
+    "message": "Ciao, sono interessato a Vikingo per il commercio autonomo."
+  },
+  "careers": {
+    "button": "Cerchiamo i migliori",
+    "badge": "Talento globale",
+    "title": "Unisciti a Vikingo",
+    "intro1": "In Vikingo stiamo costruendo una nuova generazione di soluzioni di pagamento intelligenti per mercati globali. Il nostro focus combina tecnologia finanziaria, automazione, intelligenza artificiale, IoT ed esperienze digitali progettate per operare in più paesi.",
+    "intro2": "Stiamo formando un team di alto livello per accelerare la nostra crescita internazionale. Cerchiamo persone con mentalità innovativa, capacità di esecuzione e voglia reale di costruire tecnologia con impatto.",
+    "recruitingTitle": "Stiamo reclutando talenti in aree come:",
+    "areas": [
+      "Sviluppo software",
+      "Architettura cloud",
+      "Intelligenza artificiale",
+      "Backend e API",
+      "Applicazioni mobili",
+      "Cybersecurity",
+      "IoT e hardware integrato",
+      "Prodotto e UX/UI",
+      "Growth ed espansione internazionale",
+      "Operazioni e leadership esecutiva",
+      "Direzioni commerciali e strategiche"
+    ],
+    "whatWeLookForTitle": "Cosa cerchiamo?",
+    "whatWeLookForIntro": "Persone che vogliono distinguersi, proporre idee, guidare progetti e creare soluzioni scalabili. Valorizziamo in particolare:",
+    "values": [
+      "Padronanza tecnica reale",
+      "Capacità di risolvere problemi complessi",
+      "Velocità di apprendimento",
+      "Pensiero strategico",
+      "Esperienza nella creazione di prodotti digitali",
+      "Capacità di lavorare in ambienti dinamici e in rapida crescita"
+    ],
+    "advantageTitle": "Vogliamo conoscere il tuo vantaggio competitivo",
+    "advantageIntro": "Quando ti candidi, raccontaci cosa ti rende diverso. Ad esempio:",
+    "examples": [
+      "Linguaggi di programmazione che padroneggi",
+      "Framework e tecnologie che usi",
+      "Esperienza in fintech, pagamenti, IA, cloud o automazione",
+      "Progetti rilevanti che hai sviluppato",
+      "Team che hai guidato",
+      "Brevetti, startup o prodotti creati",
+      "Certificazioni tecniche",
+      "Esperienza internazionale",
+      "Capacità di innovazione ed esecuzione"
+    ],
+    "understandTitle": "Vogliamo capire:",
+    "understand": [
+      "Cosa puoi apportare che altri candidati non possono?"
+    ],
+    "techTitle": "Tecnologie di interesse",
+    "techIntro": "Ci interessa talento con esperienza in tecnologie come:",
+    "technologies": [
+      "Python",
+      "Node.js",
+      "React",
+      "React Native",
+      "Flutter",
+      "Golang",
+      "Java",
+      ".NET",
+      "AWS",
+      "Azure",
+      "Google Cloud",
+      "Docker",
+      "Kubernetes",
+      "PostgreSQL",
+      "MongoDB",
+      "TensorFlow",
+      "OpenAI APIs",
+      "BLE / Bluetooth Low Energy",
+      "Integrazioni pagamenti e fintech"
+    ],
+    "buildTitle": "Costruiamo qualcosa di grande",
+    "buildText": "Se vuoi far parte di una fintech con visione globale, lavorare su progetti impegnativi e partecipare alla creazione di tecnologia che può scalare a livello internazionale, vogliamo conoscerti.",
+    "formTitle": "Candidati ora",
+    "formSubtitle": "Compila il modulo e allega:",
+    "attach": [
+      "Il tuo CV",
+      "LinkedIn",
+      "Portfolio o GitHub (se applicabile)",
+      "Progetti in evidenza",
+      "Tecnologie che padroneggi",
+      "Livello di esperienza",
+      "Aspettative salariali e disponibilità"
+    ],
+    "form": {
+      "name": "Nome completo",
+      "email": "Email",
+      "linkedin": "LinkedIn",
+      "portfolio": "Portfolio / GitHub",
+      "technologies": "Tecnologie che padroneggi",
+      "experience": "Livello di esperienza",
+      "expJunior": "Junior (0–2 anni)",
+      "expMid": "Mid-level (2–5 anni)",
+      "expSenior": "Senior (5+ anni)",
+      "expLead": "Lead / Management",
+      "salary": "Aspettative salariali",
+      "availability": "Disponibilità",
+      "differentiator": "Cosa ti rende diverso? Cosa puoi apportare che altri non possono?",
+      "cv": "Allega CV (PDF, DOC)",
+      "submit": "Invia candidatura"
+    },
+    "formSuccess": "Grazie per la candidatura! Esamineremo il tuo profilo e ti contatteremo presto.",
+    "closing1": "Le grandi aziende iniziano con grandi team.",
+    "closing2": "Questo potrebbe essere l'inizio di qualcosa di enorme."
+  }
+}

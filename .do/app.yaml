@@ -1,0 +1,42 @@
+# DigitalOcean App Platform — especificación de la app.
+#
+# Antes de usar con `doctl apps create --spec .do/app.yaml`:
+#   1. Sustituye OWNER/vikingo-landing por tu repo real de GitHub (formato owner/repo).
+#   2. Ajusta `branch` si no usas main.
+#   3. Opcional: cambia `region` (nyc, sfo, ams, fra, …).
+#
+# En el panel: Create App → GitHub → mismo repo; App Platform puede leer este archivo
+# si está en la raíz bajo `.do/app.yaml`.
+
+alerts:
+  - rule: DEPLOYMENT_FAILED
+  - rule: DOMAIN_FAILED
+
+name: vikingo-landing
+
+region: nyc
+
+features:
+  - buildpack-stack=ubuntu-22
+
+ingress:
+  rules:
+    - component:
+        name: web
+      match:
+        path:
+          prefix: /
+
+services:
+  - name: web
+    environment_slug: node-js
+    github:
+      repo: OWNER/vikingo-landing
+      branch: main
+      deploy_on_push: true
+    source_dir: /
+    build_command: npm ci && npm run build
+    run_command: npm run start:platform
+    http_port: 8080
+    instance_count: 1
+    instance_size_slug: apps-s-1vcpu-1gb
