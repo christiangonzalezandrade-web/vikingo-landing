@@ -45,3 +45,11 @@ services:
       failure_threshold: 5
     instance_count: 1
     instance_size_slug: apps-s-1vcpu-1gb
+
+domains:
+  - domain: vikingo-systems.com
+    type: PRIMARY
+    zone: vikingo-systems.com
+  - domain: www.vikingo-systems.com
+    type: ALIAS
+    zone: vikingo-systems.com
