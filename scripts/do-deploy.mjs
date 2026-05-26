@@ -9,7 +9,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
-const specPath = join(root, ".do", "app.yaml");
+const specPath = join(root, ".do", "seal-app.yaml");
 
 function run(cmd) {
   console.log(`→ ${cmd}`);
