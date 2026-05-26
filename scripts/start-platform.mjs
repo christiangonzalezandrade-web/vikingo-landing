@@ -10,10 +10,11 @@ const port = process.env.PORT ?? "8080";
 
 console.log(`→ next start en ${host}:${port}\n`);
 
-const child = spawn("npx", ["next", "start", "-H", host, "-p", port], {
+const nextBin = join(root, "node_modules", "next", "dist", "bin", "next");
+const child = spawn(process.execPath, [nextBin, "start", "-H", host, "-p", port], {
   cwd: root,
   stdio: "inherit",
-  env: process.env,
+  env: { ...process.env, HOSTNAME: host, PORT: port },
 });
 
 process.on("SIGTERM", () => {

@@ -39,9 +39,9 @@ services:
     run_command: npm run start:platform
     http_port: 8080
     health_check:
-      http_path: /es
+      http_path: /api/health
       port: 8080
-      initial_delay_seconds: 60
+      initial_delay_seconds: 90
       period_seconds: 10
       timeout_seconds: 5
       success_threshold: 1
