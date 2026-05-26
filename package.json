@@ -10,7 +10,7 @@
     "dev:webpack": "VIKINGO_WEBPACK=1 npm run dev",
     "build": "next build && node scripts/verify-landing-copy.mjs",
     "start": "node scripts/stop.mjs && node scripts/start.mjs",
-    "start:platform": "next start -H 0.0.0.0",
+    "start:platform": "node scripts/start-platform.mjs",
     "fresh": "node scripts/stop.mjs && node scripts/fresh.mjs",
     "open": "node scripts/open.mjs",
     "stop": "node scripts/stop.mjs",

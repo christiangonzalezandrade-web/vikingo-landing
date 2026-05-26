@@ -29,7 +29,7 @@ Edita `.do/app.yaml` y cambia:
 - `repo: OWNER/vikingo-landing` → `repo: TU_USUARIO/vikingo-landing`
 - `branch: main` si usas otra rama.
 
-El comando de arranque en producción para la nube es **`npm run start:platform`**: ejecuta `next start -H 0.0.0.0` y respeta la variable **`PORT`** que App Platform inyecta (coincide con `http_port: 8080` del spec). El `npm start` local sigue usando `scripts/stop.mjs` + `start.mjs` (solo tu máquina).
+El comando de arranque en producción es **`npm run start:platform`** (`scripts/start-platform.mjs`): `next start -H 0.0.0.0 -p $PORT` (App Platform inyecta `PORT=8080`). Health check recomendado: **`/es`**. El `npm start` local sigue usando `scripts/stop.mjs` + `start.mjs`.
 
 ## 3. Crear la app en DigitalOcean
 
